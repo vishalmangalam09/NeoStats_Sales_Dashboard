@@ -176,7 +176,7 @@ with col1:
     Status_transposed_counts_sorted = Status_transposed_counts.reindex(columns=Status_order, fill_value=0)
 
     # Display the Status Count table
-    st.markdown(f"<p style='font-size: small; font-weight: bold;'>Status Count:</p>", unsafe_allow_html=True)
+    
     st.markdown(Status_transposed_counts_sorted.to_markdown(index=False), unsafe_allow_html=True)
 
 # Sidebar filter for Status
