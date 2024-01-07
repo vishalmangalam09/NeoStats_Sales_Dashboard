@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'NeoStatsSalesDashboard'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F26B5C24AE594F1CAB05718B588CDE2A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_129C756A867A48A99385A06684DF8136 }}
